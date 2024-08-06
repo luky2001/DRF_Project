@@ -1,3 +1,3 @@
 from django.db import models
 
-bscadguabscbjhu
+# Create your models here.
