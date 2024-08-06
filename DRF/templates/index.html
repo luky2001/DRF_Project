@@ -1,12 +1,22 @@
-<!-- myapp/templates/myapp/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Django App</title>
+    <title>Login</title>
 </head>
 <body>
-    <h1>Welcome to My Django App!</h1>
-    <p>This is the homepage.</p>
+    <h2>Login</h2>
+    <form method="post" action="{% url 'login' %}">
+        {% csrf_token %}
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Login</button>
+    </form>
 </body>
 </html>
