@@ -7,5 +7,8 @@ def home(request):
 def login(request):
     return render(request, 'login.html')
 
+def logout(request):
+    return render(request,'login')
+
 
 
