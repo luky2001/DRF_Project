@@ -16,5 +16,8 @@ def register(request):
 def view(request):
     return render(request,'view.html')
 
+def update(request):
+    return render(request,'update.html')
+
 
 
