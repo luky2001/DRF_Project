@@ -13,5 +13,8 @@ def logout(request):
 def register(request):
     return render(request,'register.html')
 
+def view(request):
+    return render(request,'view.html')
+
 
 
