@@ -19,5 +19,8 @@ def view(request):
 def update(request):
     return render(request,'update.html')
 
+def delete(request):
+    return render(request,'def')
+
 
 
