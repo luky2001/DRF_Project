@@ -5,6 +5,9 @@ class Company(models.Model):
 	location=models.CharField(max_length=100)
 	about=models.TextField()
 	type=models.CharField(max_length=10)
+
+
+
+class Employee(models.Model):
+	name=models.CharField(max_length=20)
 	
-
-
