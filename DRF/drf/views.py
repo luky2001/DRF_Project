@@ -6,3 +6,5 @@ def home(request):
 def index(request):
     return render(request,'home.html')
 
+def update(request):
+    return render(request,'update.html')
