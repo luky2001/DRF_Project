@@ -16,4 +16,4 @@ class Employee(models.Model):
 class Company_page(models.Model):
 	Position=models.CharField(max_length=50)
 	salery=models.IntegerField(max_length=15)
-	
+	location=models.CharField(max_length=100)
