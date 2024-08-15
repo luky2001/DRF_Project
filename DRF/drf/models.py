@@ -13,3 +13,5 @@ class Employee(models.Model):
 	department=models.CharField(max_length=10)
 	location=models.CharField(max_length=50)
 	
+class Company_page(models.Model):
+	
