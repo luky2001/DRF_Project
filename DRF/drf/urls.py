@@ -11,6 +11,6 @@ urlpatterns = [
     path('/delete/',views.delete,name='delete'),
     path('update_profile',views.update_profile,name='up_pro'),
     path('delete_up',views.delete_up,name,name='delete_up'),
-    #path('/show/',views.show,name='show'),
+    path('/show/',views.show,name='show'),
     #path('/contact/',views.contact,name='contact'),
 ]
