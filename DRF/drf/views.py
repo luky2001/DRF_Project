@@ -11,3 +11,6 @@ def update(request):
 
 def delete(request):
     return render(request,'delete')
+
+def profile(request):
+    return render(request,'profile.html')
