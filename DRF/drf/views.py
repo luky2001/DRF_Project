@@ -14,3 +14,6 @@ def delete(request):
 
 def profile(request):
     return render(request,'profile.html')
+
+def page(request):
+    return render(request,'page.html')
