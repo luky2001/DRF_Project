@@ -19,4 +19,4 @@ def page(request):
     return render(request,'page.html')
 
 def customer(request):
-    return render
+    return render()
