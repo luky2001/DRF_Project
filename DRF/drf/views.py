@@ -20,4 +20,4 @@ def page(request):
 
 def customer(request):
     return render(request,'customer.html')
-def update
+def update(request)
