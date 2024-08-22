@@ -22,4 +22,4 @@ def customer(request):
     return render(request,'customer.html')
 def update(request):
     return render(request,)
-def show
+def show(request)
