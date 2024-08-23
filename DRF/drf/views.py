@@ -23,4 +23,4 @@ def customer(request):
 def update(request):
     return render(request,)
 def show(request):
-    return
+    return render
