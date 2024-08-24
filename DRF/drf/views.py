@@ -25,4 +25,4 @@ def update(request):
 def show(request):
     return render(request,'show.html')
 
-def output(request)
+def output(request):
