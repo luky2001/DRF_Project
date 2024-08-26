@@ -26,4 +26,4 @@ def show(request):
     return render(request,'show.html')
 
 def output(request):
-    return render(request,'')
+    return render(request,'output')
