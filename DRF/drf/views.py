@@ -27,4 +27,5 @@ def show(request):
 
 def output(request):
     return render(request,'output.html')
-def chatbot(request)
+def chatbot(request):
+    return
