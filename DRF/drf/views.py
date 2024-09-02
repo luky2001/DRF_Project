@@ -28,4 +28,4 @@ def show(request):
 def output(request):
     return render(request,'output.html')
 def chatbot(request):
-    return render(request)
+    return render(request,'chatbot.html')
