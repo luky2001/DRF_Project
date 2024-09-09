@@ -6,4 +6,4 @@ def index(request):
     return render(request,'base.html')
 def update(request):
     return render(request,'update.html')
-def delete
+def delete()
