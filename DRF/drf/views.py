@@ -7,3 +7,4 @@ def index(request):
 def update(request):
     return render(request,'update.html')
 def delete(request):
+    return
