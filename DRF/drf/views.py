@@ -10,4 +10,5 @@ def delete(request):
     return render(request,'delete')
 def profile(request):
     return render(request,'profile')
-def customer(request)
+def customer(request):
+    
