@@ -11,4 +11,4 @@ def delete(request):
 def profile(request):
     return render(request,'profile')
 def customer(request):
-    return render(request,'customer')
+    return render(request,'customer.html')
