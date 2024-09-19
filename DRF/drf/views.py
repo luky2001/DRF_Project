@@ -12,3 +12,4 @@ def profile(request):
     return render(request,'profile')
 def customer(request):
     return render(request,'customer.html')
+def
