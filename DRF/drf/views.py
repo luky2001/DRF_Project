@@ -13,3 +13,4 @@ def profile(request):
 def customer(request):
     return render(request,'customer.html')
 def product(request):
+    return
