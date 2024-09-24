@@ -15,4 +15,4 @@ def customer(request):
 def product(request):
     return render(request,'product')
 def show(request):
-    return render(request,)
+    return render(request,'')
