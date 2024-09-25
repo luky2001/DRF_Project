@@ -16,4 +16,4 @@ def product(request):
     return render(request,'product')
 def show(request):
     return render(request,'show.html')
-def
+def login
