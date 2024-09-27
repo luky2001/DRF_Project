@@ -18,3 +18,4 @@ def show(request):
     return render(request,'show.html')
 def login(request):
     return render(request,'lohin.html')
+def 
