@@ -19,3 +19,4 @@ def show(request):
 def login(request):
     return render(request,'lohin.html')
 def logout(request):
+    return
