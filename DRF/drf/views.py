@@ -20,4 +20,4 @@ def login(request):
     return render(request,'lohin.html')
 def logout(request):
     return render(request,'logout')
-def list()
+def list(request)
