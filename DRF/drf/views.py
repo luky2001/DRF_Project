@@ -21,3 +21,4 @@ def login(request):
 def logout(request):
     return render(request,'logout')
 def list(request):
+    return
