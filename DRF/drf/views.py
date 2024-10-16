@@ -23,4 +23,4 @@ def logout(request):
 def list(request):
     return render(request,'list')
 def register(request):
-    return render()
+    return render(request)
